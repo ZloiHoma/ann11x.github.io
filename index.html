@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuizBoost — Проверка знаний</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<!-- Моя шапочка-->
+    <header>
+        <div class="container">
+            <a href="#" class="logo-link"><img src="images/logo.svg" alt="QuizBoost" class="logo"></a>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#mission">Миссия</a></li>
+                    <li><a href="#about">О платформе</a></li>
+                    <li><a href="#facts">Факты</a></li>
+                    <li><a href="#testimonials">Отзывы</a></li>
+                    <li><a href="#start" class="btn-header">Начать</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Совушка на фоне, переброс к авторизации -->
+    <section class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>QuizBoost</h1>
+                <p class="subtitle">Проверка знаний в различных направлениях</p>
+                <p class="description">Бесплатные тесты и прохождение заданий для улучшения навыков</p>
+                <a href="#start" class="btn-primary">Начать тестирование</a>
+            </div>
+        </div>
+    </div>
+</section>
+<style>
+  body {
+    background: url('images/duolingo-owl-bg.png') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    color: white;
+    font-family: 'Inter', sans-serif;
+  }
+  .hero {
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+</style>
+
+<!-- Миссия -->
+<section id="mission" style="
+  padding: 80px 0;
+  position: relative;
+  color: white;
+  overflow: hidden;
+  min-height: 600px;
+">
+
+  <!-- Фоновое изображение -->
+  <img src="images/sovi.png" alt="Фоновая иллюстрация" style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: -1;
+  ">
+
+  <!-- Полупрозрачный слой -->
+  <div style="
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    pointer-events: none;
+  "></div>
+
+  <div class="container" style="position: relative; z-index: 1;">
+    <div style="
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px;
+      text-align: center;
+    ">
+      <h2 style="font-size: 2.2rem; margin-bottom: 24px; color: white; text-shadow: 0 0 10px rgba(255,255,255,0.5);">
+        Наша миссия
+      </h2>
+      <p style="
+        font-size: 1.4rem;
+        font-weight: 600;
+        margin-bottom: 20px;
+        color: white;
+        text-shadow: 0 0 5px rgba(0,0,0,0.5);
+      ">
+        Развивать лучшее в мире образование и сделать его доступным для каждого.
+      </p>
+      <p style="
+        font-size: 1.05rem;
+        color: #e0e0e0;
+        line-height: 1.7;
+        text-shadow: 0 0 3px rgba(0,0,0,0.5);
+      ">
+        Мы объединили опыт HR-специалистов, методологов и IT-разработчиков, чтобы создать систему тестирования, которая действительно работает.
+      </p>
+    </div>
+  </div>
+</section>
+    <!-- О платформе -->
+<section id="about" class="about-platform">
+    <div class="container">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>О платформе</h2>
+                <p>
+                    Мы создали инновационную систему тестирования, которая помогает оценить и улучшить знания в различных профессиональных направлениях.
+                </p>
+                <ul class="platform-features">
+                    <li>Адаптивное тестирование — система подстраивается под ваш уровень знаний</li>
+                    <li>Детальная аналитика — подробный отчет о сильных и слабых сторонах</li>
+                    <li>Индивидуальная траектория — персональные рекомендации для развития</li>
+                </ul>
+            </div>
+            <div class="about-image">
+                <img src= "images/bcff99d4b6f4f8c163e827b391ef016f.svg" 
+                     alt="Иллюстрация QuizBoost" 
+                     class="side-illustration">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Ключевые факты -->
+<section id="facts" class="key-facts">
+    <div class="container">
+        <h2>Ключевые факты</h2>
+        
+        <!-- Мой телефончик -->
+        <div class="facts-center-image">
+            <img src="images/6aa6ed64d4e8baa4dbd9710b36976af4.svg" alt="QuizBoost" class="center-logo">
+        </div>
+
+        <!-- 4 факта -->
+        <div class="facts-grid">
+            <div class="fact-item">
+                <div class="fact-icon">📅</div>
+                <div class="fact-number">2024</div>
+                <div class="fact-label">Год запуска</div>
+            </div>
+            <div class="fact-item">
+                <div class="fact-icon">👥</div>
+                <div class="fact-number">10 000+</div>
+                <div class="fact-label">Успешных тестирований</div>
+            </div>
+            <div class="fact-item">
+                <div class="fact-icon">📚</div>
+                <div class="fact-number">50+</div>
+                <div class="fact-label">Профессиональных направлений</div>
+            </div>
+            <div class="fact-item">
+                <div class="fact-icon">🤝</div>
+                <div class="fact-number">20+</div>
+                <div class="fact-label">Партнеров</div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Отзывы -->
+<section id="testimonials" class="testimonials">
+    <div class="container">
+        <!-- слева -->
+        <div class="testimonial-card testimonial-left">
+            <div class="testimonial-avatar">
+                <img src="images/294a8c16ae9c400e0e83d687cf839140.jpg" alt="Преподаватель">
+            </div>
+            <div class="testimonial-content">
+                <p>
+                    «Использую QuizBoost для оценки знаний студентов. Система баллов действительно показывает профиль знаний каждого ученика.»
+                </p>
+                <div class="testimonial-author">Преподаватель, 12 лет опыта</div>
+            </div>
+        </div>
+
+        <!--справа -->
+        <div class="testimonial-card testimonial-right">
+            <div class="testimonial-avatar">
+                <img src="images/bacb7382c9100b6ec32b6103b9f270f8.jpg" alt="Студент">
+            </div>
+            <div class="testimonial-content">
+                <p>
+                    «Готовился к собеседованию в IT-компанию. Прошёл 4 теста по JavaScript на QuizBoost — это была лучшая подготовка!»
+                </p>
+                <div class="testimonial-author">Студент, подготовка к собеседованию</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <!-- Готовность и авторизация -->
+<section id="start" class="start-section">
+    <div class="container">
+        <div class="start-card">
+            <!-- Лево -->
+            <div class="left-icons">
+                <img src="images/cbe720ccdd2a48b15de79da0e2a2ee36.svg" alt="Книга" class="icon">
+            </div>
+
+            <div class="center-content">
+                <h2>Готовы начать?</h2>
+                <p>Присоединяйтесь к тысячам пользователей, которые уже улучшили свои знания с QuizBoost</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn-primary">Бесплатная регистрация</a>
+                    <a href="#" class="btn-secondary">Демо-тестирование</a>
+                </div>
+            </div>
+
+            <!-- Право -->
+            <div class="right-icons">
+
+                <img src="images/514ecc8c2fb90a02ad76677e324ebd35.svg" alt="Монета" class="icon">
+
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Низ инфа-->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="images/logo.svg" alt="QuizBoost" class="footer-logo">
+                    <p>Платформа для проверки и улучшения знаний</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Направления</h4>
+                    <ul>
+                        <li><a href="#">Программирование</a></li>
+                        <li><a href="#">Дизайн</a></li>
+                        <li><a href="#">Маркетинг</a></li>
+                        <li><a href="#">Бизнес</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <p>📧 info@quizboost.ru</p>
+                    <p>📞 +7 (999) 123-45-67</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023–2025 QuizBoost. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>
